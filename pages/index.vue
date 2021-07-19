@@ -22,9 +22,24 @@
 
 <script lang="ts">
   import { defineComponent, ref, watch } from '@nuxtjs/composition-api';
+  import { PrismaClient } from '@prisma/client'
   
   export default defineComponent({
-
+    setup(){
+      
+      const getThings = async () => {
+        try {
+          const json = 
+          console.log();
+        } catch (e) {
+        }
+      };
+    },
+    async fetch() {
+      const prisma = new PrismaClient()
+      this.mountains = await prisma.things.findMany();
+      console.log(this.mountains);
+    }
   });
 </script>
 

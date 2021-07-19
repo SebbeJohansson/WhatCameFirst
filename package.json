@@ -13,6 +13,7 @@
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.0.1",
     "@nuxtjs/composition-api": "^0.22.1",
+    "@prisma/client": "^2.27.0",
     "@vue/composition-api": "^1.0.0-rc.5",
     "@vue/eslint-config-typescript": "^7.0.0",
     "core-js": "^3.8.3",
@@ -37,6 +38,7 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-vue": "^7.5.0",
     "postcss-css-variables": "^0.17.0",
+    "prisma": "2.27.0",
     "vuex-module-decorators": "^1.0.1"
   }
 }
